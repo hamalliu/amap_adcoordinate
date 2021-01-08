@@ -166,16 +166,7 @@
                         }
                     }
                     prvcs.push(prvc)
-                    // setTimeout(function () {
-                    // // console.log('province:', outputobj[0].boundaries.length)
-                    // saveJSON(prvc, prvc.name+'.json')
-                    // }, 70000)
                 }
-
-                // setTimeout(function () {
-                // // console.log('province:', outputobj[0].boundaries.length)
-                // saveJSON(prvc, prvc.name+'.json')
-                // }, 70000)
                 });
             }
 
@@ -185,17 +176,6 @@
                 saveJSON(item, item.name+'.json')
             })
         }, 20000)
-        // setInterval(function () {
-        //     if (prvcs.length == 4 && !saveedJson) {
-        //         saveedJson = true;
-        //         prvcs.forEach(item =>{
-        //             setInterval(saveJSON(item, item.name+'.json'), 1000)
-        //             // saveJSON(item, item.name+'.json')
-        //         })
-        //     } else {
-        //         console.log("no save json")
-        //     }
-        // }, 1000)
     }
 
     function setCenter(obj){
